@@ -8507,7 +8507,7 @@ spec:
                               minimum: 2
                               type: integer
                             periodSeconds:
-                              default: 1
+                              default: 90
                               description: How often (in seconds) to perform the probe.
                               format: int32
                               minimum: 1
@@ -8559,7 +8559,7 @@ spec:
                               minimum: 2
                               type: integer
                             periodSeconds:
-                              default: 1
+                              default: 30
                               description: How often (in seconds) to perform the probe.
                               format: int32
                               minimum: 1
@@ -8599,7 +8599,7 @@ spec:
                               minimum: 2
                               type: integer
                             periodSeconds:
-                              default: 1
+                              default: 30
                               description: How often (in seconds) to perform the probe.
                               format: int32
                               minimum: 1
@@ -8862,7 +8862,7 @@ spec:
                               minimum: 0
                               type: integer
                             periodSeconds:
-                              default: 2
+                              default: 30
                               description: How often (in seconds) to perform the probe.
                                 Default to 2 seconds. Minimum value is 1.
                               format: int32
